@@ -8,6 +8,9 @@
 		"sav2508dp203_accountKey": {
 			"value": ""
 		},
+		"AzureSynapseAnalytics_connectionString": {
+			"value": ""
+		},
 		"sav2508dp203_properties_typeProperties_url": {
 			"value": "https://sav2508dp203.dfs.core.windows.net/"
 		}

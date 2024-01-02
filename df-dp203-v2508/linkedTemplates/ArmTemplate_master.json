@@ -11,6 +11,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'sav2508dp203'"
 		},
+		"AzureSynapseAnalytics_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureSynapseAnalytics'"
+		},
 		"sav2508dp203_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://sav2508dp203.dfs.core.windows.net/"
@@ -44,6 +48,9 @@
 					},
 					"sav2508dp203_accountKey": {
 						"value": "[parameters('sav2508dp203_accountKey')]"
+					},
+					"AzureSynapseAnalytics_connectionString": {
+						"value": "[parameters('AzureSynapseAnalytics_connectionString')]"
 					},
 					"sav2508dp203_properties_typeProperties_url": {
 						"value": "[parameters('sav2508dp203_properties_typeProperties_url')]"
